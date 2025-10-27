@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.00//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="spr.beans">
+<class name="Feedback" table="FeedbackS">
+ <id name="enrollmentId" column="enrollmentid"/>
+ <property name="feedback" column="Feedback"/>
+ </class>
+</hibernate-mapping>
